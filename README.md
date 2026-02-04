@@ -209,6 +209,54 @@ I practiced writing queries, creating schemas, and linking EF Core with SQL Serv
 manage data. SQL Server also exposed me to concepts like connection strings, migrations,
 and database security practices
 
+## Challenges Faced and How I overcome them
+
+1. Adapting from academic programming to frameworks like Blazor, Tailwind CSS, and MudBlazor was difficult at the beginning.
+
+Solution: I followed self-learning through documentation and tutorials and also took guidance from senior developers to understand real-world development practices.
+
+2. The application faced 500 internal server errors and failed API responses during development.
+
+Solution: I fixed the issue by correctly registering dependencies in Program.cs and verifying service configurations.
+
+3. The frontend sometimes failed to retrieve or display data from the backend API.
+
+Solution: I resolved this by checking dependency injection, service lifetimes, and API routing.
+
+4. Incorrect selection of Blazor rendering modes caused performance and responsiveness issues.
+
+Solution: I tested different modes such as Server, WASM, SSR, and Auto (Hybrid) and selected them based on project requirements.
+
+6. MudBlazor components did not render properly due to configuration and dependency issues.
+
+Solution:
+
+> MudBlazor Weakness (in this situation):
+MudBlazor has a heavy dependency on correct configuration. If services, themes, or providers are not properly registered, components fail to render.
+It also has a learning curve, and debugging UI issues can be time-consuming during early project stages.
+
+> Why Tailwind CSS Was Used:
+Tailwind CSS is lightweight and configuration-friendly. It does not depend on complex service registrations or providers.
+Using Tailwind allowed me to continue UI development without blocking the project timeline while MudBlazor issues were being resolved.
+
+| Aspect              | MudBlazor                         | Tailwind CSS                |
+| ------------------- | --------------------------------- | --------------------------- |
+| Type                | UI Component Library              | Utility-first CSS framework |
+| Configuration       | Requires service & provider setup | Minimal setup               |
+| Dependencies        | Heavy (.NET & Blazor services)    | Very lightweight            |
+| Learning Curve      | Medium to high                    | Easy to learn               |
+| Debugging UI Issues | Can be complex                    | Simple and fast             |
+| Best Use Case       | Enterprise-level UI               | Rapid, flexible UI design   |
+
+8. Large data sets caused slow UI rendering and poor performance.
+
+Solution: I added pagination and virtualization to improve UI performance.
+
+> Pagination divides large dataset into smaller pages (only one page loads at a time instead of thousands of records), so app loads faster and uses less memory
+
+> Virtualization : it loads only the rows currently visible on the screen (browser doesn’t have to render all items at once.)
+
+
 ## Summarization
 
 ### Key Project Contributions :

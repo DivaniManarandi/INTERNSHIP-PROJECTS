@@ -257,16 +257,49 @@ Solution: I added pagination and virtualization to improve UI performance.
 > Virtualization : it loads only the rows currently visible on the screen (browser doesn’t have to render all items at once.)
 
 
-## Summarization
+## Key Project Contributions :
+- Meal Management System - The first project I was assigned was to develop a company canteen management system.
+<img width="1008" height="782" alt="flow diagram" src="https://github.com/user-attachments/assets/debbdcd8-fb3e-4abb-a7d8-da5c97f7e3b1" />
+<img width="1587" height="1343" alt="final2" src="https://github.com/user-attachments/assets/1b9825b5-bb43-4171-83ec-0ad59d0a8c7e" />
 
-### Key Project Contributions :
-- Meal Management System
-- Logistics Tool Documentation
-- Shop Floor Project
-- Customer List Tool
-- Production Efficiency Bonus Tool
-- Traffic Monitoring Dashboard
+- Logistics Tool Logic Documentation - documented logic for pagination, shipment handling, and editing modules to review backend workflow later to the developers.
+
+<img width="1307" height="570" alt="documentation" src="https://github.com/user-attachments/assets/5c09b0b1-b4ed-49cc-9474-9783124aface" />
+
+- Shop Floor Project - The second project I was assigned to develop an application to display current shipment and delivery details using JSON API data for the company’s sales department.
+
+![shopfloor](https://github.com/user-attachments/assets/a2cbca70-d269-46a6-bfb5-7b0d4776e12e)
+
+Live launched web app
+<img width="1713" height="805" alt="1" src="https://github.com/user-attachments/assets/625c26ee-6206-48ec-a357-18f61785552e" />
+
+- Customer List Tool - This project was assigned to redesign an existing intranet sales tool by integrating SAP API data with caching and database storage.
+
+<img width="618" height="287" alt="5" src="https://github.com/user-attachments/assets/04733bc4-4008-4d66-af89-3ec846e8e146" />
+
+- Traffic Monitoring Dashboard - A new intranet tool developed to monitor traffic trends across platforms (intranet, workspace, Vario-workspace).I contributed to the UI design, caching strategy, and integrating charts to visualize
+user activity. The tool provided statistics such as active users, most visited pages, and country-
+wise breakdowns
+
+<img width="738" height="390" alt="4" src="https://github.com/user-attachments/assets/9b515638-d017-4de2-b9e5-44d185dc6ec1" />
+
+- Production Efficiency Bonus Tool - My last project was to develop a system to analyze efficiency factors, including overall efficiency, production audit ratio, and 5S factors, for each department and employee in the company.
+
+<img width="1252" height="591" alt="1 (2)" src="https://github.com/user-attachments/assets/17f1aec4-5af7-4df2-89ac-6a3f32e623af" />
+
+<img width="1846" height="839" alt="new2" src="https://github.com/user-attachments/assets/e7b3ed3b-07f0-47f8-9e70-5b63085f3b8f" />
+
+<img width="1556" height="758" alt="rr" src="https://github.com/user-attachments/assets/5105c448-2ce8-44ff-a963-86be85fa6b91" />
+
 - WS Components (Date picker, rating, pagination, progress, time picker, input field) Development and Documentation
+
+<img width="671" height="522" alt="output" src="https://github.com/user-attachments/assets/ccbc36ff-9237-40bc-bc4f-f2727be6eaee" />
+<img width="874" height="867" alt="test1" src="https://github.com/user-attachments/assets/01a62f8c-1edf-447e-b250-8f92d7ed5443" />
+<img width="1298" height="1189" alt="1 (1)" src="https://github.com/user-attachments/assets/4032383a-f4fb-4584-b64c-2220f8cfa8ee" />
+
+...
+
+## Summarization
  
 ### Technical Skills & Experience Gained :
 - Developed web applications using Blazor (WASM, Server).
